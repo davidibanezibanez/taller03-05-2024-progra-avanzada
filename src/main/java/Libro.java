@@ -65,4 +65,12 @@ public class Libro {
                 ", comentarios=" + comentarios +
                 '}';
     }
+
+    public List<Integer> getCalificaciones() {
+        return calificaciones;
+    }
+
+    public List<String> getComentarios() {
+        return comentarios;
+    }
 }

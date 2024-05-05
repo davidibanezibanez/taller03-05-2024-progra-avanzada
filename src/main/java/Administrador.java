@@ -7,10 +7,10 @@ public class Administrador extends Usuario{
         super(nombre, tipo);
     }
 
-    public void crearLibro(String titulo, String autor, String categoria, int ejemplaresDisponibles){
+    public void crearAgregarLibro(String titulo, String autor, String categoria, int ejemplaresDisponibles){
         Libro nuevoLibro = new Libro(titulo, autor, categoria, ejemplaresDisponibles);
         Biblioteca.agregarLibro(nuevoLibro);
-        System.out.println("Libro agregado exitosamente!!");
+        System.out.println("Libro agregado exitosamente");
     }
     
     public void eliminarLibro(String titulo) {

@@ -17,26 +17,24 @@ public class Usuario {
 
     public void agregarPrestamo(Libro libro) {
         historialPrestamos.add(libro);
+        System.out.println("Préstamo agregado correctamente");
     }
 
     public void realizarReserva(Libro libro) {
         librosReservados.add(libro);
+        System.out.println("Reserva agregada correctamente");
     }
 
     public void agregarCalificacion(int calificacion, Libro libro) {
         libro.agregarCalificacion(calificacion);
     }
 
-    public String getNombre() {
-        return nombre;
+    public void agregarComentario(String comentario, Libro libro) {
+        libro.agregarComentario(comentario);
     }
 
     public void setNombre(String nombre) {
         this.nombre = nombre;
-    }
-
-    public String getCorreo() {
-        return correo;
     }
 
     public void setCorreo(String correo) {
