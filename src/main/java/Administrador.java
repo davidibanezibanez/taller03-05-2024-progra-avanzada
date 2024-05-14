@@ -42,7 +42,7 @@ public class Administrador extends Usuario{
     }
     public void modificarNombreUsuario(Usuario usuario, String nombreNuevo){
         usuario.setNombre(nombreNuevo);
-        System.out.println("Nombre de usuario modificado de manera exitosa");
+        System.out.println("Nombre de usuario modificado de manera exitosaqqqqqqq");
     }
     public void modificarCorreoUsuario(Usuario usuario, String correoNuevo){
         usuario.setCorreo(correoNuevo);
